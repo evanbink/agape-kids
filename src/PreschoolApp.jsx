@@ -267,8 +267,6 @@ export default function PreschoolApp() {
   </div>
 </section>
 
-
-
  {/* Activities Section */}
       {/* Activities Section */}
 <section id="activities" className="py-16 bg-gray-50">
