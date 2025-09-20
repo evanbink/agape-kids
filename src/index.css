@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* 👇 Put your global resets and tweaks here */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove old dark/light overrides — let Tailwind handle colors */
+
+/* Links */
+a {
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Reset body */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.25rem; /* text-3xl */
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Buttons — keep minimal, use Tailwind utilities for most */
+button {
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
